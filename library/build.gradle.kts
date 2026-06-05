@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "io.sushanthande.kclipboard"
+group = "dev.sushanthande.kclipboard"
 version = "0.1.0"
 
 kotlin {
