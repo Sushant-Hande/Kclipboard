@@ -3,7 +3,8 @@ package dev.sushanthande.kclipboard
 import android.content.ClipData
 import androidx.compose.ui.platform.ClipEntry
 
-actual fun String.toClipEntry(): ClipEntry = ClipEntry(ClipData.newPlainText(this, this))
+const val LABEL = "CopiedText"
+actual fun String.toClipEntry(): ClipEntry = ClipEntry(ClipData.newPlainText(LABEL, this))
 
 actual fun ClipEntry.toText(): String? {
     val clipData = clipData

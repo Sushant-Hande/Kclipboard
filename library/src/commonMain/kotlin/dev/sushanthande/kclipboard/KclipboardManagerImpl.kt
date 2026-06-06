@@ -60,5 +60,5 @@ internal class KclipboardManagerImpl(
 @Composable
 fun rememberKclipboardManager(): KclipboardManager {
     val clipboard = LocalClipboard.current
-    return remember { KclipboardManagerImpl(clipboard) }
+    return remember(clipboard) { KclipboardManagerImpl(clipboard) }
 }

@@ -14,7 +14,7 @@ interface KclipboardManager {
 
     /**
      * Returns the current text from the system clipboard.
-     * @return The copied text, or an empty string if the clipboard is empty or unavailable.
+     * @return The copied text, or null if the clipboard is empty or unavailable.
      */
     suspend fun getCopiedText(): String?
 }
