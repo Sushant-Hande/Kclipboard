@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Kclipboard"
-include(":library")
+include(":kclipboard")

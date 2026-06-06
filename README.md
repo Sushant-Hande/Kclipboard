@@ -3,6 +3,43 @@
 
 Kclipboard is a Kotlin Multiplatform library that provides a small, idiomatic API for copying text to the clipboard on Android and iOS, with more platform targets planned. Minimal dependencies, easy integration, and test coverage for core logic.
 
+## Platforms
+
+| Platform | Support     |
+| :---: | :---: |
+| Android | ✅           |
+| iOS | ✅           |
+| Desktop (JVM) | Coming Soon |
+| Wasm / JS | Coming Soon|
+
+## Download
+
+```kotlin
+dependencies {
+    implementation("dev.sushanthande.kclipboard:<version>")
+}
+```
+
+## Quick start
+
+```kotlin
+@Composable
+fun HomeScreen() {
+    val scope = rememberCoroutineScope()
+    
+    // Create an instance of KclipboardManager
+    val kclipboardManager : KclipboardManager = rememberKclipboardManager()
+
+    scope.launch {
+        // Call copy API asynchronously
+        kclipboardManager.copy("Sushant Hande")
+
+        // Call getCopiedText API asynchronously
+        val copiedText : String? = kclipboardManager.getCopiedText()
+    }
+}
+```
+
 ## License
 
 ```
