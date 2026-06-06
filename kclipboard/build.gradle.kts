@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.vanniktech.mavenPublish)
+    id("org.jetbrains.kotlinx.kover") version "0.9.8"
 }
 
 // ...no top-level dependencies added for instrumentation to avoid
@@ -57,6 +58,17 @@ kotlin {
                 implementation(libs.ext.junit)
                 implementation(libs.core)
                 implementation("androidx.compose.ui:ui-test-junit4:${libs.versions.composeMultiplatform.get()}")
+            }
+        }
+    }
+}
+
+kover {
+    reports {
+        filters {
+            excludes {
+                // Exclude auto-generated classes or specific packages
+                classes("*BuildConfig*", "*.DI*", "*ViewModelModule*")
             }
         }
     }
