@@ -13,11 +13,11 @@ plugins {
 // configuration errors across Kotlin/Android source-set layout versions.
 
 group = "dev.sushanthande.kclipboard"
-version = "0.1.6"
+version = "1.0.0-alpha"
 
 kotlin {
     android {
-        namespace = "org.jetbrains.kotlinx.multiplatform.library.template"
+        namespace = "dev.sushanthande.kclipboard"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 
@@ -90,28 +90,30 @@ mavenPublishing {
     coordinates(group.toString(), "kclipboard", version.toString())
 
     pom {
-        name = ""
-        description = ""
-        inceptionYear = ""
-        url = ""
+        name = "Kclipboard"
+        description = "Kotlin Multiplatform library for clipboard management."
+        inceptionYear = "2026"
+        url = "https://github.com/Sushant-Hande/Kclipboard"
         licenses {
             license {
-                name = ""
-                url = ""
-                distribution = ""
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "https://www.apache.org/licenses/LICENSE-2.0.txt"
             }
         }
         developers {
             developer {
-                id = ""
-                name = ""
-                url = ""
+                id = "Sushant-Hande"
+                name = "Sushant Hande"
+                email = "sushanthande1@gmail.com"
+                url = "https://sushanthande.dev"
+                roles.add("Kotlin Multiplatform Developer")
             }
         }
         scm {
-            url = ""
-            connection = ""
-            developerConnection = ""
+            url = "https://github.com/Sushant-Hande/Kclipboard"
+            connection = "scm:git:git://github.com/Sushant-Hande/Kclipboard.git"
+            developerConnection = "scm:git:ssh://git@github.com/Sushant-Hande/Kclipboard.git"
         }
     }
 }
