@@ -13,7 +13,7 @@ plugins {
 // configuration errors across Kotlin/Android source-set layout versions.
 
 group = "dev.sushanthande.kclipboard"
-version = "1.0.0-alpha"
+version = "1.0.0-alpha.1"
 
 kotlin {
     android {
