@@ -16,7 +16,7 @@ Kclipboard is a Kotlin Multiplatform library that provides a small, idiomatic AP
 
 | Android   |  iOS |
 |:---:|:---:|
-|     <img  width="300" height="600" src="assets/android-demo.webm">     | <img width="300" height="600" src="assets/ios-demo.mov"> |
+|   <img width="300" height="600" src="assets/android-demo.mp4">     | <img width="300" height="600" src="assets/ios-demo.mov"> |
 
 ## Download
 
