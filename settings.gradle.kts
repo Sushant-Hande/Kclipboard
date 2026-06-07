@@ -17,5 +17,3 @@ rootProject.name = "Kclipboard"
 include(":kclipboard")
 include(":sample:shared")
 include(":sample:androidApp")
-include(":sample:desktopApp")
-include(":sample:webApp")
