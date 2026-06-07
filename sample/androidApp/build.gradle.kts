@@ -21,11 +21,11 @@ dependencies {
 }
 
 android {
-    namespace = "dev.sushanthande.kclipboard"
+    namespace = "dev.sushanthande.kclipboard.sample"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "dev.sushanthande.kclipboard"
+        applicationId = "dev.sushanthande.kclipboard.sample"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

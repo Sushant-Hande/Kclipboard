@@ -4,6 +4,7 @@ core = "1.7.0"
 foundation = "1.11.1"
 junit = "4.13.2"
 junitVersion = "1.3.0"
+kclipboard = "1.0.0-alpha.1"
 kotlin = "2.3.10"
 android-minSdk = "24"
 android-compileSdk = "36"
@@ -19,6 +20,7 @@ kotlin-wrappers = "1.0.0-pre.752"
 
 [libraries]
 foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "foundation" }
+kclipboard = { module = "dev.sushanthande.kclipboard:kclipboard", version.ref = "kclipboard" }
 runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "runtime" }
 
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }

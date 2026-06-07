@@ -12,6 +12,12 @@ Kclipboard is a Kotlin Multiplatform library that provides a small, idiomatic AP
 | Desktop (JVM) | Coming Soon |
 | Wasm / JS | Coming Soon|
 
+## Demo
+
+| Android   |  iOS |
+|:---:|:---:|
+|     <img  width="300" height="600" src="assets/android-demo.gif">     | <img width="300" height="600" src="assets/ios-demo.gif"> |
+
 ## Download
 
 ```kotlin
