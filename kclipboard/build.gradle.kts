@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.vanniktech.mavenPublish)
     id("org.jetbrains.kotlinx.kover") version "0.9.8"
+    id("org.jetbrains.dokka") version "2.2.0"
 }
 
 // ...no top-level dependencies added for instrumentation to avoid
