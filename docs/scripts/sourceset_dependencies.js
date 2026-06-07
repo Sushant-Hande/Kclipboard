@@ -1,0 +1,1 @@
+sourceset_dependencies='{":kclipboard/androidMain":[":kclipboard/commonMain"],":kclipboard/appleMain":[":kclipboard/nativeMain"],":kclipboard/commonMain":[],":kclipboard/iosArm64Main":[":kclipboard/iosMain"],":kclipboard/iosMain":[":kclipboard/appleMain"],":kclipboard/iosSimulatorArm64Main":[":kclipboard/iosMain"],":kclipboard/nativeMain":[":kclipboard/commonMain"]}'
