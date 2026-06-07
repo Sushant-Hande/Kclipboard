@@ -1,6 +1,8 @@
 
 # Kclipboard
 
+![Build](https://github.com/Sushant-Hande/Kclipboard/actions/workflows/publish.yml/badge.svg)
+
 Kclipboard is a Kotlin Multiplatform library that provides a small, idiomatic API for copying text to the clipboard on Android and iOS, with more platform targets planned. Minimal dependencies, easy integration, and test coverage for core logic.
 
 ## Platforms
